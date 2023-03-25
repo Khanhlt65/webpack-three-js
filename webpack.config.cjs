@@ -135,6 +135,7 @@ module.exports = () => {
       },
       hot: true,
       server: 'http',
+      port: 3000,
       historyApiFallback: true
     },
     devtool: isProduction ? false : 'source-map'
